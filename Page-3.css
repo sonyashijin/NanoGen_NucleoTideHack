@@ -1,0 +1,92 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 28px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.5rem;
+  width: 736px;
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 60px auto;
+}
+#upload {
+  margin: 0 auto;
+  top: -80px;
+}
+#GIF {
+  margin: 0 auto;
+}
+#running{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#myFile {
+  position: relative;
+  top: -100px;
+  left: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#loadbutton {
+  position: relative;
+  display: block;
+  padding: 15px 32px;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+
+}
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+input[type=file] {
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .u-section-1 .u-text-2 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+}
